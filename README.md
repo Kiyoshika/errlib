@@ -70,7 +70,7 @@ int main()
         return -1;
     }
 
-    printf("Division: "%d\n", result.value);
+    printf("Division: %d\n", result.value);
     return 0;
 }
 ```
