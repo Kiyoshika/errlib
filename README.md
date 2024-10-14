@@ -1,5 +1,5 @@
 # Errlib - A barebones error result library
-This is an incredibly lightweight header-only error result library.
+This is an incredibly lightweight header-only error result library in C.
 
 ## Usage
 Use one of result structs and provided macros to either set an error with a message or set a success with the value of the appropriate type.
@@ -70,7 +70,7 @@ int main()
         return -1;
     }
 
-    printf("Division: "5d\n", result.value);
+    printf("Division: "%d\n", result.value);
     return 0;
 }
 ```
